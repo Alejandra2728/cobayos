@@ -81,6 +81,7 @@ h1, h3{
 	position: relative;
 	z-index: 2000;
 	padding: 10px;
+	
 }
 .icon-menu{
 	display: block;
@@ -140,11 +141,18 @@ h1, h3{
 	-webkit-transition: height .3s linear;
 	transition: height .3s linear;
 }
+
 .menu__link{
 	display: block;
-	padding: 15px;
+	/*padding: 15px;*/
 	color: white;
 	text-decoration: none;
+	line-height:40px;
+	color:#fff;
+	text-decoration:none;
+	padding:0 20px;
+	display:block;
+	
 }
 .menu__link:hover{
 	background: #DE423A;
